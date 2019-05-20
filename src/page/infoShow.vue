@@ -52,7 +52,7 @@
                         </p>
                     </div>
                     <div class="tipsarea">
-                        <p>您的每笔交易资金，都将接受银行全程存管   <a href="http://www.baidu.com" target="_blank">了解资金存管 》</a></p>
+                        <p>您的每笔交易资金，都将接受银行全程存管   <a href="node_http://www.baidu.com" target="_blank">了解资金存管 》</a></p>
                     </div>
                 </div>
                 </el-col>
@@ -74,7 +74,7 @@
                                 <p class="title">粉丝</p>
                             </div>
                         </div>
-                        <p class="morearea">谢谢您的关注，<a href="http://www.baidu.com" target="_blank">了解我的更多个人信息 》</a></p>
+                        <p class="morearea">谢谢您的关注，<a href="node_http://www.baidu.com" target="_blank">了解我的更多个人信息 》</a></p>
                     </div>
                 </div>
                 </el-col>
@@ -132,18 +132,18 @@
         data(){
             return {
                bandata:[
-                   {url:'http://www.baidu.com',data:300},
-                   {url:'http://www.sina.com',data:200},
-                   {url:'http://www.360.com',data:100},
-                   {url:'http://www.weibo.com',data:0},
-                   {url:'http://www.hao123.com',data:100},
+                   {url:'node_http://www.baidu.com',data:300},
+                   {url:'node_http://www.sina.com',data:200},
+                   {url:'node_http://www.360.com',data:100},
+                   {url:'node_http://www.weibo.com',data:0},
+                   {url:'node_http://www.hao123.com',data:100},
                ],
                uploadaction:'/api/userInfo/uploadimg',
                fileList:[], // name,url
             }
         },
       	mounted() {
-         
+
 	    },
         methods: {
             // 超过文件上传个数提示
@@ -234,7 +234,7 @@
                             font-size:13px;
                     }
                 }
-                
+
             }
             .chongzhiarea{
                     padding:10px;
@@ -292,7 +292,7 @@
                 }
             }
         }
-   } 
+   }
    .data_row{
        font-size:18px;
        .area{
@@ -364,7 +364,7 @@
             }
           }
        }
-      
+
    }
 </style>
 

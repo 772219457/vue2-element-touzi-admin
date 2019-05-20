@@ -23,7 +23,7 @@
 						<p class="tip">注册过的用户可凭账号密码登录</p>
 					</div>
 				</el-form>
-			
+
 	  		</section>
 	  	</transition>
   	</div>
@@ -59,7 +59,7 @@
 			this.getip();  // 在页面初始化时，就去获取公网ip
 		},
 		computed: {
-			...mapGetters(['menuitems','isLoadRoutes'])  
+			...mapGetters(['menuitems','isLoadRoutes'])
 		},
 		methods: {
 			...mapActions(['addMenu','loadRoutes']),
@@ -127,7 +127,7 @@
 						]
 			        },
 				]
-				
+
 				mUtils.setStore('menuData',menuData)     // 将菜单放入缓存。
 				this.addMenu(menuData);     			  // 生成菜单,将菜单放入store 。
 				console.log(!this.isLoadRoutes)
@@ -153,7 +153,7 @@
 					console.log(asyncRouterMap)
 					this.$router.addRoutes(asyncRouterMap);
 					this.loadRoutes()   // true,第二次进来不用再去加载路由
-				}  
+				}
 
 				this.$router.push('/index')
 				this.showMessage('success','登录成功');
@@ -165,7 +165,7 @@
 						let userinfo = this.loginForm;
 						let data = {
 							ip:this.ip,
-							url:'http://ip.taobao.com/service/getIpInfo.php?ip='
+							url:'node_http://ip.taobao.com/service/getIpInfo.php?ip='
 						}
 						let userData = Object.assign(userinfo, data);
                         axios({
@@ -198,18 +198,18 @@
 			getip(){
                 axios({
                     type:'get',
-                    path:'http://httpbin.org/ip',
+                    path:'node_http://httpbin.org/ip',
                     data:'',
                     fn:data=>{
                         const ip = data.origin;
-						this.ip = ip; 
+						this.ip = ip;
 					},
 					errFn:res => {
 						this.$message.error('请求出错：'+res)
 					}
                 });
             },
-			
+
 
 
 		},
@@ -248,7 +248,7 @@
 			color:#FF7C1A;
 			font-size: 18px;
 		}
-		
+
 	}
 	.manage_tip{
 		margin-bottom:20px;
@@ -286,7 +286,7 @@
 			margin-left: 54px;
 		}
 	}
-	
+
 	.form-fade-enter-active, .form-fade-leave-active {
 	  	transition: all 1s;
 	}

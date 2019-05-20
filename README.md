@@ -2,9 +2,9 @@
 
 **A magical vue element touzi admin.**
 
-- [效果演示地址](http://www.jiouai.com)
+- [效果演示地址](node_http://www.jiouai.com)
 
-- [使用文档](http://www.cnblogs.com/wdlhao/p/8075646.html)
+- [使用文档](node_http://www.cnblogs.com/wdlhao/p/8075646.html)
 
 ## About
 
@@ -32,7 +32,7 @@
 **运行前准备：**
 
 1、不需要在本地调试及开发：
-   [请访问本项目的服务器地址。](http://www.jiouai.com)
+   [请访问本项目的服务器地址。](node_http://www.jiouai.com)
    
 2、需要在本地调试及开发：
 
@@ -52,7 +52,7 @@ cd vue2-element-touzi-admin
 
 npm install
 
-**npm run dev** (访问本地后台系统，需开启服务端express服务)。运行之后，会默认打开本地访问路径：http://localhost:8012
+**npm run dev** (访问本地后台系统，需开启服务端express服务)。运行之后，会默认打开本地访问路径：node_http://localhost:8012
 
   开启服务端express服务方法如下：双击server/start.bat启动文件，执行命令>node index.js即可，启动后切记不要关闭cmd窗口。
 
@@ -121,7 +121,7 @@ npm install
 
 ```
 
-## [查看更多demo](http://www.jiouai.com)
+## [查看更多demo](node_http://www.jiouai.com)
 ![image](https://github.com/wdlhao/vue2-element-touzi-admin/blob/master/exampleImgs/1.jpg)
 ![image](https://github.com/wdlhao/vue2-element-touzi-admin/blob/master/exampleImgs/2.jpg)
 ![image](https://github.com/wdlhao/vue2-element-touzi-admin/blob/master/exampleImgs/3.jpg)

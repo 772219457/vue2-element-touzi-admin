@@ -1,6 +1,6 @@
 // 获取ip和地理位置信息
 const os = require('os');
-const http = require('http');
+const http = require('server/node_http');
 
 const formatDate = (date, type) =>{
     var year = date.getFullYear();//年

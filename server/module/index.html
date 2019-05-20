@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta node_http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon">-->
+    <!-- 图标 -->
+    <!--<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">-->
+    <title>xxx金融后台管理系统</title>
+</head>
+<body>
+<script src="static/tinymce/tinymce.min.js?apiKey=hdze760m1px825xjlkdq5wyz10mcev9bpdhjfy12efnkohul"></script>
+<div id="app"></div>
+<s>zzzzzzz</s>
+<img src="../../src/assets/img/orange.png" alt=""/>
+<p>啧啧啧</p>
+{{each data}}
+    {{if $value.type === true}}
+    <p> 文件 {{$value.name}} {{$value.size}}</p>
+    {{else}}
+    <p> 文件夹 {{$value.name}} {{$value.size}}</p>
+    {{/if}}
+{{/each}}
+</body>
+
+<script>
+    /***
+     * ajax 请求
+     *
+    // const xhr = new XMLHttpRequest()
+    // xhr.onreadystatechange = () => {
+    //     if (xhr.readyState === 4) {
+    //         let data = JSON.parse(xhr.responseText)
+    //         let str = ''
+    //         data.forEach(e => {
+    //             if(e.type)
+    //                 str += `<p>文件 ${e.name} ${e.size}</p>`
+    //             else
+    //                 str += `<p>文件夹 ${e.name} ${e.size}</p>`
+    //         })
+    //         document.getElementsByTagName('p')[0].innerHTML += str
+    //     }
+    //
+    // }
+    // xhr.open('get', './file_list')
+    // xhr.send()
+    */
+</script>
+</html>

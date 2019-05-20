@@ -8,9 +8,10 @@ const fs = require('fs'); // 引入文件模块
 const app = express();
 
 app.set('port',process.env.PORT || 80);
-app.use(api);  						// express use router       
+app.use(api);  						// express use router
 
 // 引入处理post数据的模块
+
 const bodyParser = require('body-parser')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));

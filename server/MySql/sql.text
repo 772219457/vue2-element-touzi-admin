@@ -1,0 +1,8 @@
+xx 代表 表名
+select * from xx where id = 1 查
+
+update xx set name = 'xiaoeyu',age = '23' where id = 1
+
+insert into xx(name,age) value ('xiaoeyu','23')
+
+delete from xx where id = 1

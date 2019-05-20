@@ -32,3 +32,4 @@
 {"_id":{"$oid":"59a82310825b294bb439542e"},"provinces":"台湾省","orderMoney":6739.0,"incomeMoney":3029.0,"payType":"古董收藏","orderPeriod":"18个月","orderPersonConunt":3820.0,"orderYearRate":"10%","remarks":"对汉代字画颇为赏识"}
 {"_id":{"$oid":"59a82310825b294bb439542f"},"provinces":"香港特别行政区","orderMoney":7390.0,"incomeMoney":3820.0,"payType":"外汇","orderPeriod":"24个月","orderPersonConunt":6380.0,"orderYearRate":"8%","remarks":"倾向于美元储蓄"}
 {"_id":{"$oid":"59a82310825b294bb4395430"},"provinces":"澳门特别行政区","orderMoney":6490.0,"incomeMoney":3280.0,"payType":"基金","orderPeriod":"30个月","orderPersonConunt":9090.0,"orderYearRate":"12%","remarks":"倾向于科技类基金"}
+追加成功追加成功
