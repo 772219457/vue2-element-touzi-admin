@@ -6,6 +6,12 @@
 
 - [使用文档](node_http://www.cnblogs.com/wdlhao/p/8075646.html)
 
+## 分支说明：
+
+master分支：前后端统一开发的版本；可以用于学习nodejs+mongodb+express相关知识；
+
+dev分支：进行了前后端分离的版本；用户只关注于前端部分，可忽略服务端；下载下来，即可运行；
+
 ## About
 
 此项目是 vue2.0 + element-ui + node+mongodb 构建的后台管理系统，所有的数据都是从服务器实时获取的真实数据，具有真实的注册、登录、数据显示、新增数据、修改数据、删除数据等功能。
@@ -132,5 +138,6 @@ npm install
 
 ## License
 
-项目讨论qq群：684775824，欢迎大家加群，一起来学习和交流。
-MIT
+项目讨论qq群：<b>602515030</b>,   <b>684775824</b>，欢迎大家加群，一起来学习和交流。
+
+![image](https://files-cdn.cnblogs.com/files/wdlhao/qun2.bmp)
